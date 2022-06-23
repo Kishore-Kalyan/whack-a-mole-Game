@@ -1,0 +1,25 @@
+.grid {
+    height: 606px;
+    width: 606px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url('./images/mole.png');
+background-size: cover;
+}
+button {
+    width: 100px;
+}
+
+button:hover {
+    background-color: grey;
+}
